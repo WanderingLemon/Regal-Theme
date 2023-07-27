@@ -17,12 +17,11 @@ body {
 svg * {
 	stroke-linecap: square;
 	stroke-linejoin: miter;
-	rx: 0;
-	ry: 0;
 }
 
 .menu {
 	padding: var(--size-2-1);
+	color: red;
 }
 
 .menu-item {
