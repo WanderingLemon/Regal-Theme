@@ -90,7 +90,11 @@ body {
 	--ribbon-background: var(--color-base-40);
 	--ribbon-background-collapsed: var(--color-base-10);
 	--ribbon-width: 2.75rem;
-	/* --ribbon-padding:5px; */
+
+	/* Scrollbar */
+	--scrollbar-bg:#FFE3A7;
+	--scrollbar-thumb-bg: #ffe3a742;
+	--scrollbar-active-thumb-bg: #fcd98d54;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
