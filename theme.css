@@ -105,6 +105,15 @@ body {
 	--titlebar-background: var(--color-base-10);
 	--titlebar-background-focused: var(--color-base-30);
 
+	/*  
+		Components
+	*/
+	/*  Indentation Guides */
+	--indentation-guide-width-active: 2px;
+	--indentation-guide-color: #332C1E;
+	--indentation-guide-color-active: #786438;
+	--indentation-guide-editing-indent: 2.5ch;
+	
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
