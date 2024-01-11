@@ -95,6 +95,12 @@ body {
 	--scrollbar-bg:#FFE3A7;
 	--scrollbar-thumb-bg: #ffe3a742;
 	--scrollbar-active-thumb-bg: #fcd98d54;
+
+	/* Status Bar */
+	--status-bar-background: var(--color-base-40);
+	--status-bar-border-color: var(--color-base-60);
+	--status-bar-border-width: 2px;
+
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
