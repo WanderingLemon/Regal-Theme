@@ -1,14 +1,34 @@
-body {
-	--radius-s: 0px;
-	--radius-m: 0px;
-	--radius-l: 0px;
-	--input-radius: 0px;
-	--tab-radius-active: 0px;
-	--checkbox-radius: 0px;
-	--toggle-radius: 0px;
-	--toggle-thumb-radius: 0px;
-	--slider-thumb-radius: 0px;
+:root{
+	/* --border-width: 20px; */
+
 }
+
+body {
+	/* --border-width:20px; */
+}
+
+/* .theme-light{
+
+} */
+
+.theme-dark {
+	/* 
+		Base Colors
+	*/
+	--color-base-00: #1D1214;
+	--color-base-05: #231316;
+	--color-base-10: #2B151A;
+	--color-base-20: #3F1C24;
+	--color-base-25: #491F26;
+	--color-base-30: #512024;
+	--color-base-35: #602225;
+	--color-base-40: #6E2A2B;
+	--color-base-50: #8A3434;
+	--color-base-60: #A24444;
+	--color-base-70: #C76161;
+	--color-base-100: #FF9B9B;
+}
+
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
 	display: none;
