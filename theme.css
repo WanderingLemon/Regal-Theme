@@ -113,7 +113,9 @@ body {
 	--indentation-guide-color: #332C1E;
 	--indentation-guide-color-active: #786438;
 	--indentation-guide-editing-indent: 2.5ch;
-	
+
+	/* Nav Items */
+	--nav-collapse-icon-color: #FFE3A7;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
