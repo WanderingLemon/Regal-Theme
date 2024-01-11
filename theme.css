@@ -85,6 +85,12 @@ body {
 	--divider-color-hover: var(--color-base-60);
 	--divider-width: 2px;
 	--divider-vertical-height: 96.3%;
+
+	/* Ribbon */
+	--ribbon-background: var(--color-base-40);
+	--ribbon-background-collapsed: var(--color-base-10);
+	--ribbon-width: 2.75rem;
+	/* --ribbon-padding:5px; */
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
