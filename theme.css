@@ -27,6 +27,13 @@ body {
 	--color-base-60: #A24444;
 	--color-base-70: #C76161;
 	--color-base-100: #FF9B9B;
+
+	/* 
+		Default Accent Color
+	*/
+	--accent-h: 36;
+	--accent-s: 95%;
+	--accent-l: 74%;
 }
 
 
