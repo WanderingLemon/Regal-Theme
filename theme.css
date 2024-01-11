@@ -34,8 +34,21 @@ body {
 	--accent-h: 36;
 	--accent-s: 95%;
 	--accent-l: 74%;
-}
 
+	/* 
+		Surface Colors
+	*/
+	--background-primary: var(--color-base-00);
+	--background-primary-alt:var(--color-base-10);
+	--background-secondary: var(--color-base-10);
+	--background-secondary-alt: var(--color-base-20);
+	
+	--background-modifier-hover: var(--color-base-40);
+	--background-modifire-border: #CD943F;
+	--background-modifier-border-hover: #E3A750;
+	--background-modifier-border-focus: #FCBD5F;
+
+}
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
 	display: none;
