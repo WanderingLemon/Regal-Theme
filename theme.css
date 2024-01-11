@@ -68,6 +68,14 @@ body {
 	/* Background */
 	--text-selection:#66266652;
 	--text-highlight-bg: #8A3434;
+
+
+	/*  
+		Additional Text Formatting
+	*/
+	--bold-weight: 700;
+	--bold-color: #FED272;
+	--italic-color: #FED272;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
