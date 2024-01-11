@@ -157,7 +157,7 @@ svg * {
 
 .menu {
 	padding: var(--size-2-1);
-	color: red;
+	/* color: red; */
 }
 
 .menu-item {
