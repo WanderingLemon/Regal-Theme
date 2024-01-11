@@ -78,6 +78,21 @@ body {
 	--italic-color: #FED272;
 
 	/* 
+		Code Formatting
+	*/
+	--code-normal: #E0BB6B;
+	--code-comment: #784F38;
+	--code-function:#A36E35;
+	--code-important:#ff9e35;
+	--code-keyword: #BA5187;
+	--code-operator: #DDB253;
+	--code-property: #DD664E;
+	--code-punctuation: #784F38;
+	--code-string: #708739;
+	--code-tag:#C9733E;
+	--code-value: #8357AC;
+
+	/* 
 		Window Formatting
 	*/
 	/* Divider */
@@ -121,6 +136,14 @@ body {
 	--tab-radius:10px 10px 0px 0px;
 	--tab-radius-active:10px 10px 0px 0px;
 	--tab-outline-color: #786438;
+
+	/* 
+		Editor
+	*/
+	/* File */
+	--file-line-width: 110ch;
+	--file-header-font-size: 14pt;
+	--file-header-border: 2px solid var(--color-base-05);
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
