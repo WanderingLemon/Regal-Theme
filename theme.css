@@ -116,6 +116,11 @@ body {
 
 	/* Nav Items */
 	--nav-collapse-icon-color: #FFE3A7;
+
+	/* Tabs */
+	--tab-radius:10px 10px 0px 0px;
+	--tab-radius-active:10px 10px 0px 0px;
+	--tab-outline-color: #786438;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
