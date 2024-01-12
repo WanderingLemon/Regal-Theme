@@ -4,7 +4,31 @@
 }
 
 body {
-	/* --border-width:20px; */
+	/* Text formatting */
+	--bold-weight: 700;
+
+	/* Divider formatting */
+	--divider-width: 2px;
+	--divider-vertical-height: 96.3%;
+	
+	/* Ribbon Formatting */
+	--ribbon-width: 2.75rem;
+	
+	/* Status Bar Formatting */
+	--status-bar-border-width: 2px;
+	
+	/* Indentation Fuide Formatting */
+	--indentation-guide-editing-indent: 2.5ch;
+	--indentation-guide-width-active: 2px;
+
+	/* Tab Formatting */
+	--tab-radius:10px 10px 0px 0px;
+	--tab-radius-active:10px 10px 0px 0px;
+	
+	/* File Content Formatting */
+	--file-line-width: 110ch;
+	--file-header-font-size: 14pt;
+
 }
 
 /* .theme-light{
@@ -51,19 +75,7 @@ body {
 	/* 
 		Interactive Colors
 	*/
-	
 	--interactive-accent: #FCBD5F;
-
-	/* 
-		Heading Formatting
-	*/
-	/* Color */
-	--h1-color:#984FBC;
-	--h2-color:#963AA1;
-	--h3-color:#9E3596;
-	--h4-color:#9A3084;
-	--h5-color:#962D6D;
-	--h6-color:#93274D;
 
 	/* 
 		Text Colors
@@ -82,14 +94,13 @@ body {
 
 
 	/*  
-		Additional Text Formatting
+		Additional Text Colors
 	*/
-	--bold-weight: 700;
 	--bold-color: #FED272;
 	--italic-color: #FED272;
 
 	/* 
-		Code Formatting
+		Code Syntax Coloring
 	*/
 	--code-normal: #E0BB6B;
 	--code-comment: #784F38;
@@ -104,18 +115,15 @@ body {
 	--code-value: #8357AC;
 
 	/* 
-		Window Formatting
+		Window Colors
 	*/
 	/* Divider */
 	--divider-color: var(--color-base-20);
 	--divider-color-hover: var(--color-base-60);
-	--divider-width: 2px;
-	--divider-vertical-height: 96.3%;
 
 	/* Ribbon */
 	--ribbon-background: var(--color-base-40);
 	--ribbon-background-collapsed: var(--color-base-10);
-	--ribbon-width: 2.75rem;
 
 	/* Scrollbar */
 	--scrollbar-bg:#FFE3A7;
@@ -125,36 +133,37 @@ body {
 	/* Status Bar */
 	--status-bar-background: var(--color-base-40);
 	--status-bar-border-color: var(--color-base-60);
-	--status-bar-border-width: 2px;
 	
 	/* Title Bar */
 	--titlebar-background: var(--color-base-10);
 	--titlebar-background-focused: var(--color-base-30);
 
 	/*  
-		Components
+		Component Colors
 	*/
 	/*  Indentation Guides */
-	--indentation-guide-width-active: 2px;
 	--indentation-guide-color: #332C1E;
 	--indentation-guide-color-active: #786438;
-	--indentation-guide-editing-indent: 2.5ch;
 
 	/* Nav Items */
 	--nav-collapse-icon-color: #FFE3A7;
 
 	/* Tabs */
-	--tab-radius:10px 10px 0px 0px;
-	--tab-radius-active:10px 10px 0px 0px;
 	--tab-outline-color: #786438;
 
 	/* 
-		Editor
+		Editor Colors
 	*/
 	/* File */
-	--file-line-width: 110ch;
-	--file-header-font-size: 14pt;
 	--file-header-border: 2px solid var(--color-base-05);
+
+	/* Heading Colors */
+	--h1-color:#984FBC;
+	--h2-color:#963AA1;
+	--h3-color:#9E3596;
+	--h4-color:#9A3084;
+	--h5-color:#962D6D;
+	--h6-color:#93274D;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
