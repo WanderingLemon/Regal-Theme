@@ -55,6 +55,17 @@ body {
 	--interactive-accent: #FCBD5F;
 
 	/* 
+		Heading Formatting
+	*/
+	/* Color */
+	--h1-color:#984FBC;
+	--h2-color:#963AA1;
+	--h3-color:#9E3596;
+	--h4-color:#9A3084;
+	--h5-color:#962D6D;
+	--h6-color:#93274D;
+
+	/* 
 		Text Colors
 	*/
 	/* Foreground */
@@ -157,7 +168,6 @@ svg * {
 
 .menu {
 	padding: var(--size-2-1);
-	/* color: red; */
 }
 
 .menu-item {
